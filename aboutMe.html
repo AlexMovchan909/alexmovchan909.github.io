@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>About me</title>
+    <style>   
+        body {
+            background-image: url(images/background.jpg); 
+        }
+    </style>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+  <body>
+      
+<!-- Кнопка навігації для пристроїв з малим екраном -->
+          <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                        <span class="sr-only">Открыть навигацию</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                
+<!-- Меню навігації з випадайками -->
+                <div class="collapse navbar-collapse" id="responsive-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Мої Контакты <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a>(063)-02-01-396</a></li>
+                                <li><a href="mailto:alexangel_@mail.ru">alexangel_@mail.ru</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Я в соцмережах<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.facebook.com/alex.movchan.391" target="_blank">Facebook</a></li>
+                                <li><a href="https://vk.com/a1esandr0" target="_blank">Vkontakte</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="aboutMe.html">Про мене</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- Ліва колонка -->
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" id="ava">
+            <img src="images/avatar.jpg" alt="My photo" width="80%" class="img-circle">
+            <p><b>Мої контакти:</b></p>
+            <p><b>Телефон:</b> (063)-02-01-396</p>
+            <p><b>Email:</b> Alexangel_@mail.ru</p>
+        </div>
+      
+<!-- Центральна колонка -->
+       <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5" id="ava2">
+            <div>
+                <h1>Всім привіт!</h1>
+                <p>Мене звати Олександр. Мені 25 років. Закінчив Національний Авіаційний університет з дипломом інженера в галузі радіоелектроніки та побутової техніки.</p>
+                <p>На 2-му курсі я зрозумів, що навчаюсь не тому, чого хотілося б. Почав самостійно пізнавати глибокий світ IT сфери. Почав я з самого простого - встановлення програм і перевстановлення ОС. З часом я набирався досвіду, і цікавість до даної сфери у мене тільки збільшувалась. Після закінчення ВУЗу я почав самостійно вивчати мову програмування Python. Пройшовши базовий курс, я вирішив не зупинятись, і наступними об"єктами стали HTML, CSS та JS. Пройшовши початкові курси і зверставши декільки примітивних сайтів ,я зрозумів що це та сфера, де я хочу працювати.</p>
+                <p>На даний момент, я маю базові знання HTML, CSS, JS та Python. Вмію користуватись фреймворком Bootstrap, та маю надзвичайне бажання рухатись в даному напряму. Нажаль, у мене немає досвіду праці в команді, і я б хотів покращити свої знання, та здобути професійні навички. Тому я буду радий кожному, хто зацікавився мною після прочитаного. Звертайтесь за телефоном, вказаним у контактній інформації або пишіть на Email. Дякую за увагу.</p>
+                <p><a href="index.html" class="btn btn-primary" role="button">Повернутись назад</a></p>
+            </div>
+        </div>
+<!-- Права колонка -->     
+      <div class="col-lg-2 col-md-2 col-sm-hidden col-xs-hidden" id="label">
+        <img src="images/Label.jpg" width=" 60%">
+      </div>
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
